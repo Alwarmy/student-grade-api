@@ -33,6 +33,6 @@ public class StudentController {
 @GetMapping("/health")
 public Map<String, String> health() {
  logger.info("Health check called");
- return Map.of("status", "UP");
+ return Map.of("status", "this is me - khaled");
 }
 }
